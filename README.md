@@ -1,105 +1,55 @@
 
 ashik@A-R-M MINGW64 ~ (main)
-$ cd "C:\Users\ashik\Desktop\DEVELOPMENT\WEB\CODES\ARM\clonePart1"
+# $ cd "C:\Users\ashik\Desktop\DEVELOPMENT\WEB\REACT\Form"
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (main)
-$ ls
-assets/  index.html  media-queries.css  style.css
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (main)
+$ cd "C:\Users\ashik\Desktop\DEVELOPMENT\WEB\REACT\Time"
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (main)
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Time (main)
+# $ git init
+Initialized empty Git repository in C:/Users/ashik/Desktop/DEVELOPMENT/WEB/REACT/Time/.git/
+
+
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Time (main)
+$ cd "C:\Users\ashik\Desktop\DEVELOPMENT\WEB\REACT\Form"
+
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (main)
 $ git init
-Initialized empty Git repository in C:/Users/ashik/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1/.git/
+Initialized empty Git repository in C:/Users/ashik/Desktop/DEVELOPMENT/WEB/REACT/Form/.git/
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (master)
-$ git status
-On branch master
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (master)
+# $ git add .
 
-No commits yet
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (master)
+# $ git commit -m "Init"
+[master (root-commit) 0a838d4] Init
+ 7 files changed, 121 insertions(+)
+ create mode 100644 package.json
+ create mode 100644 public/index.html
+ create mode 100644 public/styles.css
+ create mode 100644 src/components/App.jsx
+ create mode 100644 src/components/Input.js
+ create mode 100644 src/components/Login.js
+ create mode 100644 src/index.js
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        .DS_Store
-        assets/
-        index.html
-        media-queries.css
-        style.css
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (master)
+# $ git remote add origin https://github.com/A-R-M-028/Form_react.git
 
-nothing added to commit but untracked files present (use "git add" to track)
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (master)
+# $ git branch -M main
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (master)
-$ git add .
+# $ git remote set-url <remote_name> <ssh_remote_url>
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (master)
-$ git commit -m "Initial commit"
-[master (root-commit) 5db7e45] Initial commit
- 44 files changed, 907 insertions(+)
- create mode 100644 .DS_Store
- create mode 100644 assets/asset 0.png
- create mode 100644 assets/asset 1.png
- create mode 100644 assets/asset 10.svg
- create mode 100644 assets/asset 11.svg
- create mode 100644 assets/asset 12.svg
- create mode 100644 assets/asset 13.svg
- create mode 100644 assets/asset 14.svg
- create mode 100644 assets/asset 15.svg
- create mode 100644 assets/asset 16.svg
- create mode 100644 assets/asset 17.svg
- create mode 100644 assets/asset 18.png
- create mode 100644 assets/asset 19.png
- create mode 100644 assets/asset 2.png
- create mode 100644 assets/asset 20.png
- create mode 100644 assets/asset 21.png
- create mode 100644 assets/asset 22.png
- create mode 100644 assets/asset 23.png
- create mode 100644 assets/asset 24.png
- create mode 100644 assets/asset 25.png
- create mode 100644 assets/asset 26.png
- create mode 100644 assets/asset 27.svg
- create mode 100644 assets/asset 28.svg
- create mode 100644 assets/asset 29.svg
- create mode 100644 assets/asset 3.png
- create mode 100644 assets/asset 30.png
- create mode 100644 assets/asset 31.svg
- create mode 100644 assets/asset 32.svg
- create mode 100644 assets/asset 33.svg
- create mode 100644 assets/asset 34.jpeg
- create mode 100644 assets/asset 35.jpeg
- create mode 100644 assets/asset 36.jpeg
- create mode 100644 assets/asset 37.jpeg
- create mode 100644 assets/asset 38.png
- create mode 100644 assets/asset 39.png
- create mode 100644 assets/asset 4.png
- create mode 100644 assets/asset 5.png
- create mode 100644 assets/asset 6.png
- create mode 100644 assets/asset 7.png
- create mode 100644 assets/asset 8.svg
- create mode 100644 assets/asset 9.png
- create mode 100644 index.html
- create mode 100644 media-queries.css
- create mode 100644 style.css
-
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (master)
-$ git remote add origin https://github.com/A-R-M-028/clonePart1.git
-
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (master)
-$ git branch -M main
-
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (main)
-$ git status
-On branch main
-nothing to commit, working tree clean
-
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (main)
-$ git push -f origin main
-Enumerating objects: 46, done.
-Counting objects: 100% (46/46), done.
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (main)
+# $ git push -f origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (46/46), done.
-Writing objects: 100% (46/46), 2.37 MiB | 1.33 MiB/s, done.
-Total 46 (delta 3), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (3/3), done.
-To https://github.com/A-R-M-028/clonePart1.git
- + 4a2d666...5db7e45 main -> main (forced update)
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 1.71 KiB | 438.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/A-R-M-028/Form_react.git
+ + 74d74d2...0a838d4 main -> main (forced update)
 
-ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/CODES/ARM/clonePart1 (main)
+ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (main)
 $
