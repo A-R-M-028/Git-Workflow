@@ -52,4 +52,22 @@ To https://github.com/A-R-M-028/Form_react.git
  + 74d74d2...0a838d4 main -> main (forced update)
 
 ashik@A-R-M MINGW64 ~/Desktop/DEVELOPMENT/WEB/REACT/Form (main)
-$
+$ Codes ->
+1. cd fundamental
+2. git config --global user.name (UserName)
+3. git config --global user.email (reg mail)
+4. git init
+5. git status
+6. git add . (Add all the files) OR git add <filename>
+7. git commit -m "Hey i'm pracicing"
+Now do some changes.................
+8. git add .
+9. git status
+10. git commit "Modified changed"
+11. git revert //to revert the changes
+12. git log --oneline //to see changes
+13. gir reset --hard <number_from_git log --online> //to revert the changes
+14. git remote add origin <link>
+15.  git branch -M main
+ 16. git push -f origin main
+
