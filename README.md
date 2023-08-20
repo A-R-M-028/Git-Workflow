@@ -1,4 +1,4 @@
-# Codes1(Starting) ->
+# Commands (Basics) ->
 git init
 
 git add .
@@ -13,12 +13,20 @@ git remote set-url <remote_name> <ssh_remote_url>
 
 git push -f origin main
 
-# Codes2 ->
+# Commands (Starting) ->
 cd fundamental
 
-git config --global user.name (UserName)
+ git --version
 
-git config --global user.email (reg mail)
+ git config --global user.name "YourUserName"
+
+git config --global user.email "your.email@example.com"
+
+git config --global user.name
+
+git config --global user.email
+
+ git checkout -b "Testing" // Branch Name
 
 git init
 
@@ -29,6 +37,7 @@ git add . (Add all the files) OR git add <filename>
 git commit -m "Hey i'm pracicing"
 
 ### Now do some changes.................
+
 git add .
 
 git status
@@ -47,26 +56,33 @@ git branch -M main
 
 git push -f origin main
 
- # Codes3 ->
- git --version
- git config --global user.name = ""
- git config --global user.email = ""
- git checkout -b "Testing" // Branch Name
+ # Commands (Adv) ->
 
  touch main.py
+
  git status
+
  git add main.py
+
  git add .
+
  git commit -m "Initial commit"
+ 
  git merge
 
  ## Linux/Unix ->
  touch //Create a file
+
  mkdir // Create a folder
+
  rm <filename> // Delete a file
+
  rm -rf <foldername> // Delete a folder
+
  cat // See the content in a file
+
  nano/vi main.py // To update the content in a file
+
  ls // List down all the content of the current directory
 
  # Git workflow
