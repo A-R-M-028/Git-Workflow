@@ -147,6 +147,20 @@ git tag [tag name]
 # Add a new remote repository
 git remote add [name] [URL]
 
+# Undo from Commited / Added(Staged)
+
+### Find the commit hash you want to reset to using 'git log'
+git log
+
+### Reset to the commit hash (replace [commit hash] with the actual hash)
+git reset --hard [commit hash]
+
+### Unstage changes for a specific file (replace [file] with the actual file name)
+git reset [file]
+
+### To unstage all changes
+git reset
+
 
  # Git workflow
  ![Alt text](image.png)
